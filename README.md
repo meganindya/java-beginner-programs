@@ -1,2 +1,2 @@
 # Java Programs (Beginner)
-Beginner level programs in Java
+A set of programs aimed at beginners.
