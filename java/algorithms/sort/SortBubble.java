@@ -2,7 +2,7 @@
  * Bubble Sort using looping
  * 
  * Time  Complexity: O(n^2)
- * Space Complexity: O(n)
+ * Space Complexity: O(1)
  */
 
 
