@@ -1,7 +1,7 @@
 /**
  * Heap Sort using Priority Queue
  * 
- * Time  Complexity: O(log n)
+ * Time  Complexity: O(n log n)
  * Space Complexity: O(n)
  */
 
