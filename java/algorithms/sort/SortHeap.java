@@ -1,9 +1,10 @@
 /**
- * Heap Sort using looping
+ * Heap Sort using Priority Queue
  * 
  * Time  Complexity: O(log n)
  * Space Complexity: O(n)
  */
+
 
 import java.util.*;
 
