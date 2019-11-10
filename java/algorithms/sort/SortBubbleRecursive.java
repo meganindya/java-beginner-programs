@@ -6,7 +6,7 @@
  */
 
 
-class SortBubble {
+class SortBubbleRecursive {
     public static void main(String args[]) {
         int arr[] = { 7, 1, 5, 4, 2, 3, 6 };
 
