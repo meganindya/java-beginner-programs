@@ -2,7 +2,7 @@
  * Insertion Sort using looping
  * 
  * Time  Complexity: O(n^2)
- * Space Complexity: O(n^2) due to stacked function callsA
+ * Space Complexity: O(n^2) due to stacked function calls
  */
 
 
