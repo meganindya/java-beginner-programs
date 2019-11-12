@@ -44,7 +44,7 @@ class SearchBinary {
         int low = 0, high = arr.length - 1;
 
         while (low < high) {
-            int mid = low + ((high - low) >> 1);
+            int mid = low + ((high - low) >> 1);    // equivalent to low + (high - low) / 2
 
             if (arr[mid] == val) {
                 pos = mid;
