@@ -55,7 +55,7 @@ class SearchBinary {
                 low = mid + 1;
 
             else if (arr[mid] > val)
-                high = mid;
+                high = mid - 1;
         }
 
 
