@@ -10,3 +10,9 @@
 * Insertion Sort (recursive)
 * Heap Sort (java collections priority queue)
 * Merge Sort (recursive)
+
+## Searching
+
+* Linear Search 1D Array
+* Binary Search 1D Array (while-loop)
+* Binary Search 1D Array (recursive)
