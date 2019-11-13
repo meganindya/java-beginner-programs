@@ -27,8 +27,7 @@ class DepthFirstSearch {
 
         System.out.print("Depth First Traversal starting from vertex 0: ");
 
-        LinkedList<Integer> nodes = g.DFS(0);
-        for (Integer i : nodes)
+        for (Integer i : g.DFS(0))
             System.out.print(i.intValue() + " ");
         System.out.println();
     }
