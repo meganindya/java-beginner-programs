@@ -67,7 +67,7 @@ class DirGraph {
         return list;
     }
 
-    // utility function for DFS
+    // overloaded utility function for DFS
     void DFS(int source, boolean visited[], LinkedList<Integer> list) {
         for (Integer node : adj[source]) {
             if (visited[node.intValue()])
