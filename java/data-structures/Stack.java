@@ -120,7 +120,7 @@ class Stack {
         return stack.get(top);
     }
 
-    // displays stack from top to bottom
+    // returns stack elements as String from top to bottom
     String displayStack() {
         if (isEmpty())
             return "Stack empty";
