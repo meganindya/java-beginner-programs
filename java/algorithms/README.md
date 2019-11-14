@@ -10,6 +10,7 @@
 * Insertion Sort (recursive)
 * Heap Sort (java collections priority queue)
 * Merge Sort (recursive)
+* Quick Sort
 
 ## Searching
 
