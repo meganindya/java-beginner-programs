@@ -4,29 +4,60 @@
 
 
 import java.util.*;
+import static java.lang.System.*;
 
 class Stack {
     // driver function
     public static void main(String args[]) {
         Stack s = new Stack(3);
 
-        System.out.println(s.push(5) == 0 ? "5 pushed" : "Stack full");
-        System.out.println(s.push(1) == 0 ? "1 pushed" : "Stack full");
-        System.out.println(s.push(4) == 0 ? "4 pushed" : "Stack full");
-        System.out.println(s.push(3) == 0 ? "3 pushed" : "Stack full");
+        // push
+        out.println(s.push(5) == 0 ? "5 pushed" : "Stack full");
+        out.println(s.push(1) == 0 ? "1 pushed" : "Stack full");
+        out.println(s.push(4) == 0 ? "4 pushed" : "Stack full");
+        out.println(s.push(3) == 0 ? "3 pushed" : "Stack full");
 
-        System.out.println("Stack top: " + (s.peek() != Integer.MIN_VALUE ? s.peek() : "Stack empty"));
 
-        System.out.print("Stack: ");
+        try {
+            out.println("Stack top: " + s.peek());
+        }
+        catch (Exception e) {
+            out.println(e.getMessage());
+        }
+
+
+        out.print("Stack: ");
         displayStack(s);
 
-        int temp;
-        System.out.println((temp = s.pop()) != Integer.MIN_VALUE ? temp + " popped" : "Stack empty");
-        System.out.println((temp = s.pop()) != Integer.MIN_VALUE ? temp + " popped" : "Stack empty");
-        System.out.println((temp = s.pop()) != Integer.MIN_VALUE ? temp + " popped" : "Stack empty");
-        System.out.println((temp = s.pop()) != Integer.MIN_VALUE ? temp + " popped" : "Stack empty");
 
-        System.out.println("Stack top: " + (s.peek() != Integer.MIN_VALUE ? s.peek() : "Stack empty"));
+        // pop
+        try {
+            out.println(s.pop() + " popped");
+        }
+        catch (Exception e) {
+            out.println(e.getMessage());
+        }
+
+        try {
+            out.println(s.pop() + " popped");
+        }
+        catch (Exception e) {
+            out.println(e.getMessage());
+        }
+
+        try {
+            out.println(s.pop() + " popped");
+        }
+        catch (Exception e) {
+            out.println(e.getMessage());
+        }
+
+        try {
+            out.println(s.pop() + " popped");
+        }
+        catch (Exception e) {
+            out.println(e.getMessage());
+        }
     }
 
 
@@ -70,8 +101,8 @@ class Stack {
         return (top == capacity - 1 ? true : false);
     }
 
-    // push function: returns -1 on full, else 0
-    // adds new element on top of stack
+    // push function: adds new element on top of stack
+    // returns -1 on full, else 0
     int push(int value) {
         if (isFull())
             return -1;
@@ -82,11 +113,11 @@ class Stack {
         return 0;
     }
 
-    // pop function: returns Integer.MIN_VALUE on empty, else top value
-    // removes top entry
-    int pop() {
+    // pop function: returns top entry while removing it
+    // throws Exception if stack is empty
+    int pop() throws Exception {
         if (isEmpty())
-            return Integer.MIN_VALUE;
+            throw new Exception("Stack empty");
         
         int value = stack.get(top);
         stack.remove(top);
@@ -95,11 +126,11 @@ class Stack {
         return value;
     }
 
-    // peek function: returns Integer.MIN_VALUE on empty, else top value
-    // doesn't remove top entry
-    int peek() {
+    // pop function: returns top entry without removing it
+    // throws Exception if stack is empty
+    int peek() throws Exception {
         if (isEmpty())
-            return Integer.MIN_VALUE;
+            throw new Exception("Stack empty");
 
         return stack.get(top);
     }
