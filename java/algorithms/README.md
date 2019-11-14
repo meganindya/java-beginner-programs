@@ -16,3 +16,8 @@
 * Linear Search 1D Array
 * Binary Search 1D Array (while-loop)
 * Binary Search 1D Array (recursive)
+
+## Graphs
+
+* Depth First Search
+* Breadth First Search
