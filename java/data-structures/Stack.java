@@ -26,8 +26,7 @@ class Stack {
         }
 
 
-        out.print("Stack: ");
-        displayStack(s);
+        out.println("Stack: " + s.displayStack());
 
 
         // pop
@@ -61,25 +60,11 @@ class Stack {
     }
 
 
-    // displays stack from top to bottom
-    // this method is not explicitly part of stack class
-    static void displayStack(Stack s) {
-        if (s.isEmpty()) {
-            System.out.println("Stack empty");
-            return;
-        }
-
-        for (Integer i : s.stack)
-            System.out.print(i.intValue() + " ");
-        System.out.println();
-    }
-
-
 
     // instance variables
-    ArrayList<Integer> stack = new ArrayList<>();
-    int top = -1;
-    int capacity;
+    private ArrayList<Integer> stack = new ArrayList<>();
+    private int top = -1;
+    private int capacity;
 
     // constructors
     Stack() {
@@ -133,5 +118,18 @@ class Stack {
             throw new Exception("Stack empty");
 
         return stack.get(top);
+    }
+
+    // displays stack from top to bottom
+    String displayStack() {
+        if (isEmpty())
+            return "Stack empty";
+
+        StringBuilder s = new StringBuilder();
+        ListIterator<Integer> li = stack.listIterator(stack.size());
+        while (li.hasPrevious())
+            s.append(li.previous().intValue() + " ");
+
+        return s.toString().trim();
     }
 }
