@@ -65,7 +65,7 @@ class Stack {
     // this method is not explicitly part of stack class
     static void displayStack(Stack s) {
         if (s.isEmpty()) {
-            System.out.println("Empty");
+            System.out.println("Stack empty");
             return;
         }
 
