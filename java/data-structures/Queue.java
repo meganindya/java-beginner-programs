@@ -135,7 +135,7 @@ class Queue {
         return value;
     }
 
-    // pop function: returns top entry without removing it
+    // peek function: returns top entry without removing it
     // throws Exception if stack is empty
     int peek() throws Exception {
         if (isEmpty())
