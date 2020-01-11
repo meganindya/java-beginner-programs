@@ -5,11 +5,12 @@
  * Extra Space Complexity: O(n)
  */
 
+
 import java.util.*;
 
 class PrimeSieveClassical {
     public static void main(String args[]) {
-        int n = 50;
+        int n = 100;
 
         System.out.printf("Primes within %d: ", n);
         for (Integer i : getPrimesSieveEratosthenes(n))
@@ -17,7 +18,7 @@ class PrimeSieveClassical {
         System.out.println();
     }
 
-    // classical Sieve of Eratosthenes
+    // Classical Sieve of Eratosthenes
     static ArrayList<Integer> getPrimesSieveEratosthenes(int n) {
         ArrayList<Integer> primes = new ArrayList<>();
 
