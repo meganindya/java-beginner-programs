@@ -1,5 +1,13 @@
 # Algorithms
 
+## Number Theory
+
+* Primes upto an integer evaluation
+    * Sieve of Eratosthenes
+    * Segmented Sieve
+* GCD of two integers: Euclid's Algorithm
+* LCD of two integers: using Euclid's Algorithm
+
 ## Sorting
 
 * Bubble Sort (iterative)
