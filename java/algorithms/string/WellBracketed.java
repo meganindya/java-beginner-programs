@@ -23,7 +23,7 @@ class WellBracketed {
             (isBracketed(str3) ? "well bracketed" : "not well bracketed"));
     }
 
-
+    // returns if passed string is well bracketed
     static boolean isBracketed(String s) {
         boolean bracketed = true;
 
@@ -31,17 +31,21 @@ class WellBracketed {
 
         loop:
         for (char c : s.toCharArray()) {
+            // if ( / { / [ encountered, push to stack
             if (c == '(' || c == '{' || c == '[')
                 brackets.push(Character.valueOf(c));
             
+            // if ) / } / ] encountered, check stack top
             if (c == ')' || c == '}' || c == ']') {
                 char t = brackets.peek();
                 
+                // if top is ( / { / [, pop it
                 if (c == ')' && t == '(' ||
                     c == '}' && t == '{' ||
                     c == ']' && t == '[')
                     brackets.pop();
 
+                // else string isn't well bracketed
                 else {
                     bracketed = false;
                     break loop;
