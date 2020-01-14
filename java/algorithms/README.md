@@ -26,6 +26,10 @@
 * Binary Search 1D Array (while-loop)
 * Binary Search 1D Array (recursive)
 
+## String
+
+* Check if string is well bracketed
+
 ## Graphs
 
 * Depth First Search
