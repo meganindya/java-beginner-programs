@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ init()
+comment0.text=\ The\ main\ applet\ class\ only\ lays\ out\ the\ applet.\ \ The\ work\ of\r\n\ \ \ \ \ \ the\ game\ is\ all\ done\ in\ the\ CheckersCanvas\ object.\ \ \ Note\ that\r\n\ \ \ \ \ \ the\ Buttons\ and\ Label\ used\ in\ the\ applet\ are\ defined\ as\ \r\n\ \ \ \ \ \ instance\ variables\ in\ the\ CheckersCanvas\ class.\ \ The\ applet\r\n\ \ \ \ \ \ class\ gives\ them\ their\ visual\ appearance\ and\ sets\ their\r\nsize\ and\ positions.
+numComments=1

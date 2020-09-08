@@ -1,0 +1,40 @@
+import java.io.*;
+class in4
+{
+    static void main()throws IOException
+    {
+        BufferedReader br=new BufferedReader(new FileReader("C:/Users/Anindya/Desktop/in4.txt"));
+        int n=Integer.parseInt(br.readLine());
+        for(int i=1;i<=n;i++)
+        {
+            String s=br.readLine(),r="1";
+            int a[]=new int[10],m=1,c=1;
+            for(int j=0;j<10;j++)
+            {
+                a[j]=(s.charAt(0))-48;
+                s=s.substring(1);
+            }
+            for(int j=0;j<10;j++)
+                System.out.println(a[j]);
+            qui:
+            do
+            {
+                for(int k=0;k<10;k++)
+                    a[k]++;
+                for(int k=0;k<r.length();k++)
+                {
+                    int e=r.charAt(0)-48;
+                    r=r.substring(1);
+                    a[e]--;
+                }
+                for(int k=0;k<10;k++)
+                {
+                    if(a[k]<0)
+                        c=1;
+                }
+                r=Integer.toString(++m);
+            }while(c!=0);
+            System.out.println(r.length());
+        }
+    }
+}

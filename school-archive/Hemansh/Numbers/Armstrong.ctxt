@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ k
+comment0.target=int\ sum_of_digits(int,\ int)
+comment1.params=n\ k
+comment1.target=int\ power(int,\ int)
+comment2.params=m\ n
+comment2.target=void\ main(int,\ int)
+numComments=3

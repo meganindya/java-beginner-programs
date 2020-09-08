@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=n
+comment1.target=java.lang.String\ tooct(java.lang.String)
+comment2.params=n
+comment2.target=java.lang.String\ todec(java.lang.String)
+comment3.params=n
+comment3.target=java.lang.String\ sort(java.lang.String)
+comment4.params=m\ n
+comment4.target=java.lang.String\ sub(java.lang.String,\ java.lang.String)
+numComments=5

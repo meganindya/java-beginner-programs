@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=s
+comment1.target=char[][]\ extract(java.lang.String)
+comment2.params=a\ b
+comment2.target=int\ compute(char,\ char)
+comment3.params=a\ n
+comment3.target=char\ position(char,\ int)
+numComments=4

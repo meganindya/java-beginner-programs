@@ -1,0 +1,13 @@
+class s
+{
+    String main(String t,int a)
+    {
+        if(a==0)
+            return t;
+        else
+        {
+            t=Integer.toString(2*Integer.parseInt(t));
+            return main(t,a-1);
+        }
+    }
+}

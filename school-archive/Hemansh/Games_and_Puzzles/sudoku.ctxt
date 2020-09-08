@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=p
+comment1.target=int\ nextPosition(int)
+comment2.params=p\ cells
+comment2.target=boolean\ solve(int,\ int[][])
+comment3.params=i\ j\ val\ cells
+comment3.target=boolean\ legal(int,\ int,\ int,\ int[][])
+comment4.params=filename
+comment4.target=int[][]\ parseProblem(java.lang.String)
+comment5.params=solution
+comment5.target=void\ writeMatrix(int[][])
+numComments=6

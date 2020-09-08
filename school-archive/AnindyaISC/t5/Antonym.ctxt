@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=n
+comment1.target=void\ get_random(int)
+comment2.params=a
+comment2.target=void\ sort_random(int[])
+comment3.params=n
+comment3.target=void\ get_elements(int)
+comment4.params=
+comment4.target=void\ nxt()
+comment5.params=c\ n
+comment5.target=void\ summary(int,\ int)
+numComments=6

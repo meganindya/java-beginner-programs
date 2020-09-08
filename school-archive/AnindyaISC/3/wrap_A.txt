@@ -1,0 +1,88 @@
+import java.util.*;
+class wrap_A
+{
+    void main()
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter elements and rule no., $ to end : ");
+        String s="";int k=0;char A,x='A',r;
+        do
+        {
+            A=(sc.next()).charAt(0);
+            if(k%2!=0)
+                s+=","+Character.toString(A);
+            else
+                s+=" "+Character.toString(A);
+            k++;
+        }while(A!='$');
+        s=(s.substring(1,s.length()-2)).toUpperCase();
+        char b[][]=extract(s);
+        System.out.print("Wrapped string : ");
+        for(int i=0;i<b.length;i++)
+        {
+            r=position(x,compute(b[i][0],b[i][1]));
+            x=r;
+            System.out.print(r);
+        }
+    }
+    char[][] extract(String s)
+    {
+        String a[]=s.split(" ");
+        char b[][]=new char[a.length][2];
+        for(int i=0;i<a.length;i++)
+        {
+            b[i][0]=a[i].charAt(0);
+            b[i][1]=a[i].charAt(2);
+        }
+        return b;
+    }
+    int compute(char a,char b)
+    {
+        int n1=a-64,n2=b-48,r=0,s=0;
+        switch(n2)
+        {
+            case 1:
+                r=n1*2;
+                break;
+            case 2:
+                r=(n1%3)*5;
+                break;
+            case 3:
+                r=(n1/4)*(-8);
+                break;
+            case 4:
+                r=(int)(Math.sqrt(n1))*(-12);
+                break;
+            case 5:
+                for(int i=1;i<=n1;i++)
+                {
+                        if(n1%i==0)
+                            s+=i;
+                }
+                r=s*10;
+                break;
+        }
+        return r;
+    }
+    char position(char a,int n)
+    {
+        int m=((int)a-64)+(n%26);
+        if(m>0 && m<27)
+            return ((char)(m+64));
+        else if(m<=0)
+            return ((char)(m+90));
+        else
+            return ((char)(m+64-26));
+    }
+}
+/**
+ * Output
+ * ------
+ * Enter elements and rule no., $ to end : 
+ * M|1|O|2|N|3|T|4|R|5|E|1|A|2|L|3|$
+ * Wrapped string : AACGGQVX
+ * ------
+ * Enter elements and rule no., $ to end : 
+ * C|5|P|4|L|3|U|2|S|1|$
+ * Wrapped string : OSUUG
+ */

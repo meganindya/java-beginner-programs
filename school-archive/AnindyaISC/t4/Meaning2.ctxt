@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=void\ main(int)
+comment1.params=b
+comment1.target=void\ get_elements(int)
+comment2.params=
+comment2.target=void\ nxt()
+comment3.params=c\ n
+comment3.target=void\ summary(int,\ int)
+numComments=4

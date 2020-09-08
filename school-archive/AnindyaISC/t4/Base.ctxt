@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=no\ s\ i\ b
+comment0.target=double\ to_dec(java.lang.String,\ double,\ int,\ int)
+comment1.params=no\ res\ b
+comment1.target=java.lang.String\ to_other(int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ main()
+numComments=3

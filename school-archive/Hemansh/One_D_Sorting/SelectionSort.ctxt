@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=sortingList
+comment0.target=void\ main(double[])
+comment1.params=list
+comment1.target=void\ sort(double[])
+comment2.params=list\ low\ high
+comment2.target=void\ sort(double[],\ int,\ int)
+numComments=3

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=s
+comment1.target=java.lang.String\ furnish(java.lang.String)
+comment2.params=a
+comment2.target=java.lang.String\ unary(java.lang.String)
+comment3.params=a
+comment3.target=java.lang.String\ binary(java.lang.String)
+comment4.params=x
+comment4.target=int\ precedence(char)
+comment5.params=s
+comment5.target=int\ checkERROR(java.lang.String)
+numComments=6

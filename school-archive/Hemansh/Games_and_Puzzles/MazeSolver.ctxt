@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=row\ col\ pathsofar\ lengthsofar
+comment0.target=boolean\ beenhere(int,\ int,\ int[],\ int)
+comment1.params=mypath\ mylength
+comment1.target=void\ showmypath(int[],\ int)
+comment2.params=row\ col\ pathsofar\ lengthsofar
+comment2.target=void\ findpath(int,\ int,\ int[],\ int)
+comment3.params=a\ sr\ sc\ er\ ec
+comment3.target=void\ main(int[][],\ int,\ int,\ int,\ int)
+numComments=4

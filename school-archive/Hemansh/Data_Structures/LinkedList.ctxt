@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=LinkedList()
+comment2.params=d
+comment2.target=void\ createfirst(int)
+comment3.params=d
+comment3.target=void\ addatbeg(int)
+comment4.params=
+comment4.target=void\ deletefirst()
+comment5.params=item
+comment5.target=void\ searchNode(int)
+comment6.params=d\ pos
+comment6.target=void\ insertnode(int,\ int)
+comment7.params=pos
+comment7.target=void\ deletenode(int)
+comment8.params=d
+comment8.target=void\ insertAscending(int)
+comment9.params=
+comment9.target=void\ disp()
+numComments=10

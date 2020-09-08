@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=double\ power(int,\ int)
+comment1.params=a
+comment1.target=float\ sqr(int)
+comment2.params=a1\ b1
+comment2.target=double\ ang(double,\ double)
+comment3.params=a1\ b1
+comment3.target=void\ multi(double,\ double)
+numComments=4
