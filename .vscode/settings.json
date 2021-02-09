@@ -1,0 +1,13 @@
+{
+    "java.project.resourceFilters": [
+        "node_modules",
+        ".git",
+        "archive"
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}
