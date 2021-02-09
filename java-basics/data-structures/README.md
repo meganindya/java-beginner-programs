@@ -1,4 +1,4 @@
 # Data Structures
 
-* Stack
-* Queue (circular)
+- Stack
+- Queue (circular)
