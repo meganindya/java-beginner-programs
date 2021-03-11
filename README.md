@@ -4,6 +4,10 @@ An archive repository of basic console programs for programming proficiency.
 
 ## Contents
 
+### [Questions](questions)
+
+List of algorithmic problems for practice (categorized).
+
 ### [School](archive\school)
 
 _Java_ programs written during high school - classes XI & XII. These programs are written in the [_BlueJ_](https://bluej.org/) environment and hence might not strictly adhere to _Java_ conventions.
