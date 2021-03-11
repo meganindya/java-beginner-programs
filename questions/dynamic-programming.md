@@ -1,8 +1,12 @@
 # Dynamic Programming
 
+Total: **91**
+
 ## Patterns
 
 ### Minimum (Maximum) Path to Reach a Target
+
+Total: **17**
 
 **Statement:** Given a target find minimum (maximum) cost/path to reach the target.
 
@@ -38,13 +42,15 @@ return dp[target];
 - (M) [LeetCode 120 - Traingle](https://leetcode.com/problems/triangle/)
 - (M) [LeetCode 474 - Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 - (M) [LeetCode 221 - Maximal Squares](https://leetcode.com/problems/maximal-square/)
-- (H) [LeetCode 85 - Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - (M) [LeetCode 152 - Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- (H) [LeetCode 85 - Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - (H) [LeetCode 1240 - Tiling a Rectangle with the Fewest Squares](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/)
 - (H) [LeetCode 174 - Dungeon Game](https://leetcode.com/problems/dungeon-game/)
 - (H) [LeetCode 871 - Minimum Number of Refuelling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
 
 ### Distinct Ways
+
+Total: **17**
 
 **Statement:** Given a target find a number of distinct ways to reach the target.
 
@@ -88,6 +94,8 @@ return dp[target];
 
 ### Merging Intervals
 
+Total: **7**
+
 **Statement:** Given a set of numbers find an optimal solution for a problem considering the current number and the best you can get from the left and right sides.
 
 **Approach:** Find all optimal solutions for every interval and return the best possible answer.
@@ -121,6 +129,8 @@ return dp[0][n-1];
 - (H) [LeetCode 312 - Burst Balloons](https://leetcode.com/problems/burst-balloons/)
 
 ### DP on Strings
+
+Total: **13**
 
 **Statement:** Given two strings where lengths of those strings are not big, return some result.
 
@@ -162,14 +172,16 @@ for (int l = 1; l < n; ++l) {
 - (M) [LeetCode 5 - Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - (M) [LeetCode 131 - Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - (M) [LeetCode 300 - Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- (M) [LeetCode 139 - Word Break](https://leetcode.com/problems/word-break/)
 - (H) [LeetCode 1092 - Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)
 - (H) [LeetCode 32 - Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
-- (M) [LeetCode 139 - Word Break](https://leetcode.com/problems/word-break/)
 - (H) [LeetCode 72 - Edit Distance](https://leetcode.com/problems/edit-distance/)
 - (H) [LeetCode 115 - Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
 - (H) [LeetCode 140 - Word Break II](https://leetcode.com/problems/word-break-ii/)
 
 ### Decision Making
+
+Total: **7**
 
 **Statement:** Given a set of values find an answer with an option to choose or ignore the current value.
 
@@ -196,6 +208,8 @@ for (int i = 1; i < n; ++i) {
 
 ### Miscellaneous
 
+Total: **5**
+
 - (M) [LeetCode 338 - Counting Bits](https://leetcode.com/problems/counting-bits/)
 - (M) [LeetCode 91 - Decode Ways](https://leetcode.com/problems/decode-ways/)
 - (H) [LeetCode 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
@@ -203,6 +217,8 @@ for (int i = 1; i < n; ++i) {
 - (H) [LeetCode 44 - Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
 ## Unclassified
+
+Total: **25**
 
 - (E) [GFG - Minimum cost to reach a point N from 0 with two different operations allowed](https://www.geeksforgeeks.org/minimum-cost-to-reach-a-point-n-from-0-with-two-different-operations-allowed/)
 - (E) [GFG - Count number of ways to cover a distance](https://www.geeksforgeeks.org/count-number-of-ways-to-cover-a-distance/)
