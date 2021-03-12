@@ -206,22 +206,14 @@ for (int i = 1; i < n; ++i) {
 - **`(H)`** [LeetCode 123 - Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 - **`(H)`** [LeetCode 188 - Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 
-### Miscellaneous
-
-Total: **5**
-
-- **`(M)`** [LeetCode 338 - Counting Bits](https://leetcode.com/problems/counting-bits/)
-- **`(M)`** [LeetCode 91 - Decode Ways](https://leetcode.com/problems/decode-ways/)
-- **`(H)`** [LeetCode 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-- **`(H)`** [LeetCode 10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-- **`(H)`** [LeetCode 44 - Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
-
 ## Unclassified
 
-Total: **25**
+Total: **30**
 
 - **`(E)`** [GFG - Minimum cost to reach a point N from 0 with two different operations allowed](https://www.geeksforgeeks.org/minimum-cost-to-reach-a-point-n-from-0-with-two-different-operations-allowed/)
 - **`(E)`** [GFG - Count number of ways to cover a distance](https://www.geeksforgeeks.org/count-number-of-ways-to-cover-a-distance/)
+- **`(M)`** [LeetCode 338 - Counting Bits](https://leetcode.com/problems/counting-bits/)
+- **`(M)`** [LeetCode 91 - Decode Ways](https://leetcode.com/problems/decode-ways/)
 - **`(M)`** [AlgoExpert - Max Subset Sum No Adjacent](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
 - **`(M)`** [AlgoExpert - Number of Ways to Make Change](https://leetcode.com/problems/coin-change-2/)
 - **`(M)`** [AlgoExpert - Min Number of Ways for Change](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
@@ -235,6 +227,9 @@ Total: **25**
 - **`(M)`** [GFG - Count number of binary strings without consecutive 1’s](https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/)
 - **`(M)`** [GFG - Maximum Tip Calculator](https://stackoverflow.com/questions/48245860/maximum-tip-calculator-naive-solution)
 - **`(M)`** [GFG - Longest Bitonic Subsequence](https://leetcode.com/problems/wiggle-subsequence/)
+- **`(H)`** [LeetCode 42 - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- **`(H)`** [LeetCode 10 - Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+- **`(H)`** [LeetCode 44 - Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 - **`(H)`** [AlgoExpert - Disk Stacking](https://www.geeksforgeeks.org/box-stacking-problem-dp-22/)
 - **`(H)`** [AlgoExpert - Numbers in Pi](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
 - **`(H)`** [AlgoExpert - Palindrome Partitioning Minimum Cuts](https://leetcode.com/problems/palindrome-partitioning-ii/)
