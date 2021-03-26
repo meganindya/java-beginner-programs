@@ -39,7 +39,7 @@ return dp[target];
 - **`(M)`** [LeetCode 650 - 2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)
 - **`(M)`** [LeetCode 279 - Perfect Squares](https://leetcode.com/problems/perfect-squares/)
 - **`(M)`** [LeetCode 1049 - Last Weighed Stone II](https://leetcode.com/problems/last-stone-weight-ii/)
-- **`(M)`** [LeetCode 120 - Traingle](https://leetcode.com/problems/triangle/)
+- **`(M)`** [LeetCode 120 - Triangle](https://leetcode.com/problems/triangle/)
 - **`(M)`** [LeetCode 474 - Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 - **`(M)`** [LeetCode 221 - Maximal Squares](https://leetcode.com/problems/maximal-square/)
 - **`(M)`** [LeetCode 152 - Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
