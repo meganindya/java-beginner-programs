@@ -4,4 +4,4 @@ List of algorithmic problems for practice (categorized).
 
 | Count | Topic |
 | :---: | ----------- |
-| 91 | [Dynamic Programming](dynamic-programming.md) |
+| 90 | [Dynamic Programming](dynamic-programming.md) |

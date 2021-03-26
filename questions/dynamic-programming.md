@@ -1,6 +1,6 @@
 # Dynamic Programming
 
-Total: **91**
+Total: **90**
 
 ## Patterns
 
@@ -208,7 +208,7 @@ for (int i = 1; i < n; ++i) {
 
 ## Unclassified
 
-Total: **30**
+Total: **29**
 
 - **`(E)`** [GFG - Minimum cost to reach a point N from 0 with two different operations allowed](https://www.geeksforgeeks.org/minimum-cost-to-reach-a-point-n-from-0-with-two-different-operations-allowed/)
 - **`(E)`** [GFG - Count number of ways to cover a distance](https://www.geeksforgeeks.org/count-number-of-ways-to-cover-a-distance/)
@@ -216,7 +216,6 @@ Total: **30**
 - **`(M)`** [LeetCode 91 - Decode Ways](https://leetcode.com/problems/decode-ways/)
 - **`(M)`** [AlgoExpert - Max Subset Sum No Adjacent](https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
 - **`(M)`** [AlgoExpert - Number of Ways to Make Change](https://leetcode.com/problems/coin-change-2/)
-- **`(M)`** [AlgoExpert - Min Number of Ways for Change](https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/)
 - **`(M)`** [AlgoExpert - Maximum Sum Increase Subsequence](https://www.geeksforgeeks.org/maximum-sum-increasing-subsequence-dp-14/)
 - **`(M)`** [AlgoExpert - Minimum Number of Jumps to Reach End](https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
 - **`(M)`** [AlgoExpert - Water Area](https://leetcode.com/problems/container-with-most-water/)
